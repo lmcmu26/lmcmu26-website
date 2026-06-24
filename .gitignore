@@ -42,3 +42,5 @@ next-env.d.ts
 
 # local portable git
 /mingit/
+
+.vercel

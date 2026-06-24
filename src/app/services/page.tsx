@@ -4,7 +4,7 @@ import styles from "./services.module.css";
 
 export const metadata: Metadata = {
   title: "lmcmu26.au | Services",
-  description: "Self-hosted applications and dashboards running on my local homelab network.",
+  description: "Self-hosted applications, utility tools, and media platforms running on my network.",
 };
 
 interface ServiceItem {
@@ -16,67 +16,112 @@ interface ServiceItem {
 
 const homelabServices: ServiceItem[] = [
   {
-    name: "Home Assistant",
-    description: "Centralized smart home automation, telemetry tracking, and device management.",
-    url: "https://home.lmcmu26.au",
+    name: "IT-Tools",
+    description: "A comprehensive collection of handy online tools for developers and IT professionals.",
+    url: "https://ittools.lmcmu26.cc/",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-        <polyline points="9 22 9 12 15 12 15 22" />
+        <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
       </svg>
     ),
   },
   {
-    name: "Plex Media Server",
-    description: "Personal media library containing movies, shows, and audio streams on demand.",
-    url: "https://media.lmcmu26.au",
+    name: "13ft Ladder",
+    description: "A clean, ad-free reader mode and paywall bypass helper to access content without clutter.",
+    url: "https://13ftladder.lmcmu26.cc/",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <polygon points="6 3 20 12 6 21 6 3" />
+        <path d="M6 3v18M18 3v18M6 7h12M6 12h12M6 17h12" />
       </svg>
     ),
   },
   {
-    name: "Pi-hole",
-    description: "Network-wide advertisement blocking, local DNS routing, and request monitoring.",
-    url: "https://dns.lmcmu26.au",
+    name: "Stirling-PDF",
+    description: "A powerful, self-hosted web platform to merge, split, compress, and edit PDF documents locally.",
+    url: "https://stirlingpdf.lmcmu26.cc/",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+        <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
+        <polyline points="14 2 14 8 20 8" />
+        <path d="M12 18V12M9 15h6" />
       </svg>
     ),
   },
   {
-    name: "Nextcloud",
-    description: "Secure self-hosted productivity suite, file storage system, and calendar sharing.",
-    url: "https://cloud.lmcmu26.au",
-    icon: (
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M17.5 19A5.5 5.5 0 0 0 22 13.5a6 6 0 0 0-10.74-3.73A6.25 6.25 0 0 0 3 11.5 5.5 5.5 0 0 0 7.5 19Z" />
-      </svg>
-    ),
-  },
-  {
-    name: "Vaultwarden",
-    description: "Lightweight self-hosted Bitwarden password vault for encrypted credential management.",
-    url: "https://vault.lmcmu26.au",
+    name: "PrivateBin",
+    description: "A minimalist, zero-knowledge, encrypted pastebin for sharing text and files securely.",
+    url: "https://privatebin.lmcmu26.cc/",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <rect width="18" height="11" x="3" y="11" rx="2" ry="2" />
-        <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+        <path d="M7 11V7a5 5 0 0 1 10 0v4M12 15v3" />
       </svg>
     ),
   },
   {
-    name: "Portainer",
-    description: "Visual container management dashboard for monitoring local Docker stacks.",
-    url: "https://docker.lmcmu26.au",
+    name: "VERT",
+    description: "A local, client-side file converter running entirely in the browser via WebAssembly for maximum privacy.",
+    url: "https://vert.lmcmu26.cc/",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <rect width="20" height="8" x="2" y="2" rx="2" ry="2" />
-        <rect width="20" height="8" x="2" y="14" rx="2" ry="2" />
-        <line x1="6" x2="6.01" y1="6" y2="6" />
-        <line x1="6" x2="6.01" y1="18" y2="18" />
+        <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67" />
+      </svg>
+    ),
+  },
+  {
+    name: "OmniTools",
+    description: "An all-in-one suite of privacy-respecting client-side utility tools for daily digital tasks.",
+    url: "https://omnitools.lmcmu26.cc/",
+    icon: (
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="3" y="3" width="7" height="7" />
+        <rect x="14" y="3" width="7" height="7" />
+        <rect x="14" y="14" width="7" height="7" />
+        <rect x="3" y="14" width="7" height="7" />
+      </svg>
+    ),
+  },
+  {
+    name: "BentoPDF",
+    description: "A privacy-first, client-side PDF toolkit designed to manage and compile documents inside your browser.",
+    url: "https://bentopdf.lmcmu26.cc/",
+    icon: (
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="3" y="3" width="18" height="18" rx="2" />
+        <line x1="12" y1="3" x2="12" y2="21" />
+        <line x1="3" y1="12" x2="12" y2="12" />
+        <line x1="12" y1="12" x2="21" y2="12" />
+      </svg>
+    ),
+  },
+  {
+    name: "ConvertX",
+    description: "A self-hosted file conversion powerhouse supporting over 1,000 formats using local engine integrations.",
+    url: "https://convertx.lmcmu26.cc/",
+    icon: (
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M16 3h5v5M4 20L21 3M21 16v5h-5M4 4l5 5" />
+      </svg>
+    ),
+  },
+  {
+    name: "Overseerr",
+    description: "Request management, user discovery, and media requests tracking system for Plex ecosystems.",
+    url: "https://overseerr.lmcmu26.cc/",
+    icon: (
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+        <circle cx="12" cy="12" r="3" />
+      </svg>
+    ),
+  },
+  {
+    name: "Plex",
+    description: "Access the personal media library with streaming support for movies, shows, and audio.",
+    url: "https://app.plex.tv/",
+    icon: (
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <polygon points="6 3 20 12 6 21 6 3" />
       </svg>
     ),
   },
@@ -87,9 +132,9 @@ export default function ServicesPage() {
     <div className={styles.pageContainer}>
       <div className={styles.content}>
         <div className={styles.header}>
-          <h1 className={`${styles.title} text-gradient`}>Homelab Services</h1>
+          <h1 className={`${styles.title} text-gradient`}>Hosted Services</h1>
           <p className={styles.subtitle}>
-            A collection of local dashboards, smart devices, and hosting platforms run on my custom homelab setup.
+            A collection of secure utility tools, document editors, converters, and media platforms running on my network.
           </p>
         </div>
 

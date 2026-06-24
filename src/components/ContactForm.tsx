@@ -54,8 +54,10 @@ export default function ContactForm() {
     setIsSubmitting(true);
     setErrors({});
 
+    const endpoint = process.env.NEXT_PUBLIC_FORMSUBMIT_ENDPOINT || "lachlan@lmcmu26.au";
+
     try {
-      const response = await fetch("https://formsubmit.co/ajax/lachlan@lmcmu26.au", {
+      const response = await fetch(`https://formsubmit.co/ajax/${endpoint}`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -75,7 +77,7 @@ export default function ContactForm() {
           setIsSuccess(true);
           setForm(INITIAL_STATE);
         } else if (result.message && result.message.toLowerCase().includes("activation")) {
-          setSuccessMessage("An activation link has been sent to lachlan@lmcmu26.au. Please check your inbox and click 'Activate Form' to complete the setup.");
+          setSuccessMessage(`An activation link has been sent to your email (${endpoint.includes("@") ? endpoint : "default: lachlan@lmcmu26.au"}). Please check your inbox and click 'Activate Form' to complete the setup.`);
           setIsSuccess(true);
           setForm(INITIAL_STATE);
         } else {

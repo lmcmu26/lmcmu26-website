@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import styles from "./services.module.css";
 
 export const metadata: Metadata = {
-  title: "lmcmu26.au | Services",
+  title: "lmcmu26 | Services",
   description: "Self-hosted applications, utility tools, and media platforms running on my network.",
 };
 

@@ -113,12 +113,10 @@ export default function ContactForm() {
                 </defs>
               </svg>
             </div>
-            <h1 className={styles.logoText}>
-              lmcmu26<span className={styles.dot}>.au</span>
-            </h1>
+            <h1 className={styles.logoText}>lmcmu26</h1>
           </Link>
           <p className={styles.subtitle}>
-            Welcome to lmcmu26.au. If you have any inquiries or would like to get in touch, please send a message below.
+            Welcome to lmcmu26. If you have any inquiries or would like to get in touch, please send a message below.
           </p>
         </div>
 

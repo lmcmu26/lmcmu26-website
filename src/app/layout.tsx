@@ -14,24 +14,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "lmcmu26.au | Contact Us",
-  description: "Get in touch with lmcmu26.au. Send us a message using our contact form.",
+  title: "lmcmu26 | Contact Us",
+  description: "Get in touch with lmcmu26. Send us a message using our contact form.",
   robots: "index, follow",
   alternates: {
     canonical: "https://lmcmu26.au",
   },
   openGraph: {
-    title: "lmcmu26.au | Contact Us",
-    description: "Get in touch with lmcmu26.au. Send us a message using our contact form.",
+    title: "lmcmu26 | Contact Us",
+    description: "Get in touch with lmcmu26. Send us a message using our contact form.",
     url: "https://lmcmu26.au",
-    siteName: "lmcmu26.au",
+    siteName: "lmcmu26",
     locale: "en_AU",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "lmcmu26.au | Contact Us",
-    description: "Get in touch with lmcmu26.au. Send us a message using our contact form.",
+    title: "lmcmu26 | Contact Us",
+    description: "Get in touch with lmcmu26. Send us a message using our contact form.",
   },
   icons: {
     icon: "/icon.svg",

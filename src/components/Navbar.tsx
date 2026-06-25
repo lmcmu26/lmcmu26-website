@@ -25,9 +25,7 @@ export default function Navbar() {
               </defs>
             </svg>
           </div>
-          <span>
-            lmcmu26<span className={styles.dot}>.au</span>
-          </span>
+          <span>lmcmu26</span>
         </Link>
 
         <nav>

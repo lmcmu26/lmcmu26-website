@@ -49,7 +49,7 @@ const serviceSections: ServiceSection[] = [
       {
         name: "Overseerr",
         description: "Request management, user discovery, and media requests tracking system for Plex ecosystems.",
-        url: "https://overseerr.lmcmu26.cc/",
+        url: "https://overseerr.lmcmu26.au/",
         icon: (
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
@@ -74,7 +74,7 @@ const serviceSections: ServiceSection[] = [
       {
         name: "Stirling-PDF",
         description: "A powerful, self-hosted web platform to merge, split, compress, and edit PDF documents locally.",
-        url: "https://stirlingpdf.lmcmu26.cc/",
+        url: "https://stirlingpdf.lmcmu26.au/",
         icon: (
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
@@ -86,7 +86,7 @@ const serviceSections: ServiceSection[] = [
       {
         name: "BentoPDF",
         description: "A privacy-first, client-side PDF toolkit designed to manage and compile documents inside your browser.",
-        url: "https://bentopdf.lmcmu26.cc/",
+        url: "https://bentopdf.lmcmu26.au/",
         icon: (
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <rect x="3" y="3" width="18" height="18" rx="2" />
@@ -110,7 +110,7 @@ const serviceSections: ServiceSection[] = [
       {
         name: "IT-Tools",
         description: "A comprehensive collection of handy online tools for developers and IT professionals.",
-        url: "https://ittools.lmcmu26.cc/",
+        url: "https://ittools.lmcmu26.au/",
         icon: (
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
@@ -120,7 +120,7 @@ const serviceSections: ServiceSection[] = [
       {
         name: "13ft Ladder",
         description: "A clean, ad-free reader mode and paywall bypass helper to access content without clutter.",
-        url: "https://13ftladder.lmcmu26.cc/",
+        url: "https://13ftladder.lmcmu26.au/",
         icon: (
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M6 3v18M18 3v18M6 7h12M6 12h12M6 17h12" />
@@ -130,7 +130,7 @@ const serviceSections: ServiceSection[] = [
       {
         name: "PrivateBin",
         description: "A minimalist, zero-knowledge, encrypted pastebin for sharing text and files securely.",
-        url: "https://privatebin.lmcmu26.cc/",
+        url: "https://privatebin.lmcmu26.au/",
         icon: (
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <rect width="18" height="11" x="3" y="11" rx="2" ry="2" />
@@ -141,7 +141,7 @@ const serviceSections: ServiceSection[] = [
       {
         name: "VERT",
         description: "A local, client-side file converter running entirely in the browser via WebAssembly for maximum privacy.",
-        url: "https://vert.lmcmu26.cc/",
+        url: "https://vert.lmcmu26.au/",
         icon: (
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67" />
@@ -151,7 +151,7 @@ const serviceSections: ServiceSection[] = [
       {
         name: "OmniTools",
         description: "An all-in-one suite of privacy-respecting client-side utility tools for daily digital tasks.",
-        url: "https://omnitools.lmcmu26.cc/",
+        url: "https://omnitools.lmcmu26.au/",
         icon: (
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <rect x="3" y="3" width="7" height="7" />
@@ -164,7 +164,7 @@ const serviceSections: ServiceSection[] = [
       {
         name: "ConvertX",
         description: "A self-hosted file conversion powerhouse supporting over 1,000 formats using local engine integrations.",
-        url: "https://convertx.lmcmu26.cc/",
+        url: "https://convertx.lmcmu26.au/",
         icon: (
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M16 3h5v5M4 20L21 3M21 16v5h-5M4 4l5 5" />

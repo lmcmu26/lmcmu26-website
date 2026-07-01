@@ -47,9 +47,9 @@ const serviceSections: ServiceSection[] = [
         ),
       },
       {
-        name: "Overseerr",
+        name: "Seerr",
         description: "Request management, user discovery, and media requests tracking system for Plex ecosystems.",
-        url: "https://overseerr.lmcmu26.au/",
+        url: "https://seerr.lmcmu26.au/",
         icon: (
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
